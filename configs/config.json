@@ -1,0 +1,14 @@
+{
+  "width": 1280,
+  "height": 720,
+  "stream_fps": 10,
+  "yolo_interval": 5,
+  "img_size": 320,
+  "engine_path": "/data/yolov8n.engine",
+  "rtsp_out": "rtsp://127.0.0.1:8554/live",
+  "person_class": 0,
+  "table_class": 60,
+  "max_table_misses": 150,
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45
+}

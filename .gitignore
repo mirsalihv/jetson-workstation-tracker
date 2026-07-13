@@ -1,0 +1,25 @@
+# Model Weights
+*.pt
+*.onnx
+*.engine
+
+# Environment and Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.env
+.venv
+venv/
+cleanenv/
+
+# Logs and Reports
+*.log
+table_attention_summary.json
+
+# IDEs
+.vscode/
+.idea/
+.project
+.pydevproject

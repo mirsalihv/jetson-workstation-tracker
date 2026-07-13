@@ -1,0 +1,27 @@
+logLevel: info
+logDestinations: [stdout]
+logFile: mediamtx.log
+readTimeout: 10s
+writeTimeout: 10s
+readBufferCount: 512
+udpMaxPayloadSize: 1472
+api: no
+metrics: no
+pprof: no
+rtsp: yes
+protocols: [udp, multicast, tcp]
+encryption: "no"
+rtspAddress: :8554
+rtspAddress: :8554
+rtmp: yes
+rtmpAddress: :1935
+hls: yes
+hlsAddress: :8888
+webrtc: yes
+webrtcAddress: :8889
+srt: yes
+srtAddress: :8890
+paths:
+  all:
+    source: publisher
+    overridePublisher: yes
